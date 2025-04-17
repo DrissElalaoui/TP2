@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+span {
+    color: #ffd900;
+}
+.vh {
+    padding: 25px 0;
+}
+.vh .section {
+    background-color: yellow;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.vh .section .img  {
+    width: 50%;
+    background-color: #4B164C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vh .section .img img {
+    width: 350px;
+    height: 350px;
+    
+}
+.vh .section .form  {
+    background-color:#EBD3F8 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 50px 0;
+}
+.vh .section .form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.vh .section .form input {
+    width: 350px;
+    height: 36px;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+    background-color: #fdfdfd;
+    outline: none;
+}
+.vh .section .form textarea {
+    margin-bottom: 30px;
+    background-color: #fdfdfd;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+i {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+.vh .section .form .input1 ,
+.vh .section .form .input2
+ {
+    position: relative;
+}
+.vh .section .form button {
+    background-image: linear-gradient(to right,#4B164C 60%,#88218a );
+    width: 170px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.vh .section .form .btn {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
